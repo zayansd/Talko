@@ -1,0 +1,7 @@
+package com.talko.app.core.call
+
+// Copy this file to AgoraConfig.kt and fill in your credentials
+object AgoraConfig {
+    const val APP_ID = "YOUR_AGORA_APP_ID"   // https://console.agora.io
+    const val TEMP_TOKEN = ""                 // Leave empty for testing
+}

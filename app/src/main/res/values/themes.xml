@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--
+      Pure Android framework theme — no AppCompat or Material library needed.
+      All app theming is done in Compose via TalkoTheme.
+      This XML theme only controls window chrome (status/nav bars, keyboard).
+    -->
+    <style name="Theme.Talko" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+    </style>
+</resources>

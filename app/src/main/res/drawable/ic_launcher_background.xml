@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Talko launcher icon background — purple gradient matching brand colour -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:startColor="#4C4FDE"
+        android:endColor="#3A3DC8"
+        android:angle="135"
+        android:type="linear" />
+</shape>

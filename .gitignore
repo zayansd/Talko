@@ -1,0 +1,31 @@
+# Android build outputs
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+
+# Sensitive — never commit these
+app/google-services.json
+app/src/main/java/com/talko/app/core/call/AgoraConfig.kt
+
+# Kotlin/Java
+*.class
+*.jar
+*.war
+
+# Gradle wrapper (keep gradlew but not caches)
+.gradle/
+gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+*.swp
+*.swo
+.vscode/
