@@ -15,6 +15,7 @@ captures/
 # Sensitive — never commit these
 app/google-services.json
 app/src/main/java/com/talko/app/core/call/AgoraConfig.kt
+gradle.properties
 
 # Kotlin/Java
 *.class

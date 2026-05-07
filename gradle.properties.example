@@ -1,0 +1,10 @@
+# Copy this file to gradle.properties and fill in your values
+# DO NOT commit gradle.properties — it contains secrets
+
+org.gradle.jvmargs=-Xmx4g -Dfile.encoding=UTF-8
+android.useAndroidX=true
+kotlin.code.style=official
+android.nonTransitiveRClass=true
+
+# Get your Agora App ID from https://console.agora.io
+AGORA_APP_ID=your_agora_app_id_here

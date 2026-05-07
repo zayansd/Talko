@@ -21,6 +21,9 @@ android {
         versionName = "1.0.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
+
+        // Inject Agora App ID from gradle.properties into BuildConfig
+        buildConfigField("String", "AGORA_APP_ID", "\"${project.findProperty("AGORA_APP_ID") ?: ""}\"")
     }
 
     buildTypes {
@@ -42,6 +45,7 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
     }
     composeOptions {
         kotlinCompilerExtensionVersion = "1.5.15"
